@@ -1,0 +1,1 @@
+This folder consists of all the objects which configured Test Sage Object Repository
