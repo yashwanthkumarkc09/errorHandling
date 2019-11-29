@@ -20,6 +20,7 @@ actions.EnterApplicationURL("http://web.meehappy.com:9090/login");
 actions.EnterData(new exportChanges(driver).userName,user);
 actions.EnterData(new exportChanges(driver).userPassword,password);
 actions.Click(new exportChanges(driver).userLogin);
+actions.Click(new exportChanges(driver).happyMe);
 actions.Click(new exportChanges(driver).userLogout);
 
 

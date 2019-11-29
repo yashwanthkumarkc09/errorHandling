@@ -43,6 +43,8 @@ ThreadLocal<WebDriver> driver;
 @FindBy(id="loginBtn")public WebElement userLogin;
 
 @FindBy(xpath="//a[@class='btn btn-primary dropdown-toggle blue-btn']")public WebElement userLogout;
+
+@FindBy(xpath="//span[contains(text(),'Happy Me')]")public WebElement happyMe;
 //pomStart
 	
 
